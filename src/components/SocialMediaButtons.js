@@ -1,8 +1,7 @@
 function SocialMediaButtons() {
     return (
         <div className="social-media-buttons">
-            <a>Twitter</a>
-            <a>Tumblr</a>
+            <a id="tweet-quote" className="btn btn-primary" href="http://twitter.com/intent/tweet"><i className="bi bi-twitter-x"></i></a>
         </div>
     );
 }

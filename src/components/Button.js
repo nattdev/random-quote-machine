@@ -1,6 +1,6 @@
 function Button() {
     return (
-        <button className="new-quote">New Quote</button>
+        <button id="new-quote" className="new-quote btn btn-primary">New Quote</button>
     );
 }
 
