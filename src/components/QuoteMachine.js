@@ -47,7 +47,7 @@ function QuoteMachine() {
             </div>
             <div className='row p-2 align-items-center'>
                 <div className='col'>
-                    <SocialMediaButtons />
+                    <SocialMediaButtons text={quote} name={author}/>
                 </div>
                 <div className='col text-end'>
                     <Button onClick={handleNewQuote}/>
